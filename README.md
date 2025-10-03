@@ -1,8 +1,7 @@
 # FinMerge (Sample / Redacted)
 
 Public, redaction‑safe sample of a company tool that **combines multiple Excel/CSV files
-with financial data** into a unified output. This repo demonstrates **architecture,
-interfaces, tests, CLI, and CI** — while keeping your **proprietary connectors
+with financial data** into a unified output. This repo demonstrates sample code — while keeping your **proprietary connectors
 and rules private**.
 
 > ✅ Safe to share publicly. Proprietary logic (ERP connectors, mapping rules, conversions) is *not* included.
