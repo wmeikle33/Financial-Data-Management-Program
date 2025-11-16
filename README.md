@@ -28,7 +28,7 @@ pytest -q
 - `finmerge.core` – core merge/transform logic (pure functions)
 - `finmerge.io`   – reading/writing Excel/CSV files
 - `finmerge.cli`  – command-line interface that ties everything together
-- 
+  
 ## Limitations
 
 Synthetic sample data only
