@@ -23,7 +23,12 @@ pip install -r requirements-dev.txt
 python -m finmerge.cli --input sample_data --out sample_data/combined.csv --aggregate account currency
 pytest -q
 ```
+## Project Architecture
 
+- `finmerge.core` – core merge/transform logic (pure functions)
+- `finmerge.io`   – reading/writing Excel/CSV files
+- `finmerge.cli`  – command-line interface that ties everything together
+- 
 ## Limitations
 
 Synthetic sample data only
