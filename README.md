@@ -23,3 +23,9 @@ pip install -r requirements-dev.txt
 python -m finmerge.cli --input sample_data --out sample_data/combined.csv --aggregate account currency
 pytest -q
 ```
+
+## Limitations
+
+Synthetic sample data only
+Rules simplified vs the real internal tool
+No direct ERP connectors, no confidential mapping tables
