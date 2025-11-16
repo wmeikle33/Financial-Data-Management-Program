@@ -2,6 +2,13 @@
 
 During my time at SEMILeds, Finance received separate Excel exports for AP, AR, and inventory from different systems. Manually combining them was slow and error-prone. FinMerge automates merging these files into one unified dataset keyed by account & currency.
 
+# What FinMerge Does
+
+Reads multiple Excel/CSV files from --input folder
+Normalizes column names & types
+Joins on keys (e.g. account, currency)
+Outputs a single combined.csv with consistent schema
+
 Public, redaction‑safe sample of a company tool that **combines multiple Excel/CSV files
 with financial data** into a unified output. This repo demonstrates sample code — while keeping your **proprietary connectors
 and rules private**.
